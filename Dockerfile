@@ -6,4 +6,6 @@ RUN apt-get install -y --no-install-recommends rsync
 RUN apt-get install -y --no-install-recommends ssh
 RUN apt-get install -y --no-install-recommends mercurial
 RUN apt-get install -y --no-install-recommends subversion
+RUN apt-get install -y --no-install-recommends lftp
 RUN apt-get clean
+RUN rm -rf /varlib/apt/lists*

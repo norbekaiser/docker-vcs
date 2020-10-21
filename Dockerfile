@@ -11,5 +11,6 @@ RUN apt-get install -y --no-install-recommends vim
 RUN apt-get install -y --no-install-recommends curl
 RUN apt-get install -y --no-install-recommends wget
 RUN apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get install -y --no-install-recommends jq
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/*

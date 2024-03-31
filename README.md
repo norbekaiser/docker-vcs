@@ -8,8 +8,10 @@ Debian Slim Image with vcs things like git, mercurial, svn, rsync, ssh
 * [Github](https://github.com/norbekaiser/docker-vcs.git)
 
 ## Docker
-* [dockerhub](https://hub.docker.com/r/norbnorb/vcs)
+* [Dockerhub](https://hub.docker.com/r/norbnorb/vcs)
+* [Github](https://ghcr.io/norbekaiser/docker-vcs)
 
 
 ### Docker Pull Command
-```docker pull norbnorb/vcs```
+* ```docker pull norbnorb/vcs```
+* ```docker pull ghcr.io/norbekaiser/docker-vcs:latest```
